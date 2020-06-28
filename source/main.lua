@@ -540,7 +540,7 @@ local versionLogs = {
         },
         hu = {
             name = 'Itt a legújabb frissítésünk!',
-            _1 = '<rose>Új:</rose> Pálya frissítés!\n\n<rose>Új helyek:</rose> Étterem, Hajóbolt és Halbolt!\n\n<rose>Új munka:</rose> Séf!\nBeszélj Remi-vel és kezdj el finom ételeket főzni!\n\n<rose> Új helyek: labirintus, szennyvízcsatorna, és ásatási terület!\nHozzáadva egy új bányászati rendszer.\n\nÉs még sok más!'
+            _1 = '<rose>Új:</rose> Pálya frissítés!\n\n<rose>Új helyek:</rose> Étterem, Hajóbolt és Halbolt!\n\n<rose>Új munka:</rose> Séf!\nBeszélj Remi-vel és kezdj el finom ételeket főzni!\n\n<rose>Új helyek:</rose> labirintus, szennyvízcsatorna és ásatási terület!\nHozzáadva egy új bányászati rendszer.\n\nÉs még sok más!'
         },
         fr = {
              name = 'Notre dernière mise à jour est arrivée!',
