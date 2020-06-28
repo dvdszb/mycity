@@ -680,6 +680,7 @@ local codesIds = {
     [9] = {n = 'GARDENING'},
     [10] = {n = 'XP'},
     [11] = {n = 'FLOUR'},
+    [12] = {n = 'CHEF'},
 }
 local codes = {
     ['WELCOME'] = {
@@ -754,6 +755,17 @@ local codes = {
         reward = function(player)
             addItem('wheatFlour', 8, player)
             alert_Error(player, 'atmMachine', 'codeReceived', translate('item_wheatFlour', player)..': 8')
+        end,
+    },
+    ['CHEF'] = {
+        id = 12,
+        uses = 1,
+        avilable = true,
+        level = 5,
+        reward = function(player)
+            addItem('bruschetta', 3, player)
+            addItem('pierogies', 1, player)
+            alert_Error(player, 'atmMachine', 'codeReceived', ''..translate('item_bruschetta', player)..': 3\n'..translate('item_pierogies', player)..': 1')
         end,
     },
 }
